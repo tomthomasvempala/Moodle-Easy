@@ -109,7 +109,7 @@ var subjects = [
     "name": "Computer Organisation and Architecture",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=409",
-      "Attendance": "gmail.com"
+      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10118"
     }
   },
   {
@@ -134,7 +134,7 @@ var subjects = [
   },
   {
     "sub": "HNRS",
-    "name": "Honours",
+    "name": "Honours - Machine Learning",
     "links": {"Home": "google.com", "Attendance": "gmail.com"}
   },
   {
