@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:moodle/timetable.dart';
+import 'dart:js' as js;
 
 class TimeTableDrawer extends StatelessWidget {
   @override
@@ -30,7 +31,19 @@ class TimeTableDrawer extends StatelessWidget {
                       style: TextStyle(
                           color: getPeriod() != e ? Colors.blue : Colors.white),
                     )))
-                .toList(),
+                .toList() +
+            [
+              SizedBox(
+                height: 60,
+              ),
+              TextButton(
+                  onPressed: () {
+                    js.context.callMethod('open', [
+                      "http://moodle.mec.ac.in/pluginfile.php/32870/mod_resource/content/1/CS4%20TT-2021%20EVEN%20-w.e.f-26-04-2021.pdf"
+                    ]);
+                  },
+                  child: Text("See Full Time Table"))
+            ],
       ),
     );
   }

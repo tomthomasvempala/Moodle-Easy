@@ -89,6 +89,8 @@ var subjects = [
   {
     "sub": "AFM",
     "name": "Mentoring",
+    "image":
+        "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1063184564%2F960x0.jpg%3Ffit%3Dscale",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=414",
       "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=9902"
@@ -97,6 +99,8 @@ var subjects = [
   {
     "sub": "DBMS",
     "name": "Database Management System",
+    "image":
+        "https://www.pngkit.com/png/detail/231-2316751_database-database-icon-png.png",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=407",
       "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10120",
@@ -105,6 +109,7 @@ var subjects = [
   {
     "sub": "OS",
     "name": "Operating System",
+    "image": "https://miro.medium.com/max/360/1*rk1o0WQWtR1tEGcsEMIpEQ.png",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=433",
       "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10137"
@@ -113,6 +118,8 @@ var subjects = [
   {
     "sub": "COA",
     "name": "Computer Organisation and Architecture",
+    "image":
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/44/d218105d0111e8ad4d85f20ecaf1cc/comparch-logo.png?auto=format%2Ccompress&dpr=1",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=409",
       "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10118"
@@ -121,6 +128,8 @@ var subjects = [
   {
     "sub": "GT",
     "name": "Graph Theory",
+    "image":
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Moreno_Sociogram_2nd_Grade.png/220px-Moreno_Sociogram_2nd_Grade.png",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=410",
       "Attendance": "http://moodle.mec.ac.in/course/view.php?id=410"
@@ -129,6 +138,7 @@ var subjects = [
   {
     "sub": "OSL",
     "name": "OS Lab",
+    "image": "https://cdn.automationforum.co/uploads/2018/12/operating-sys.png",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=459",
       "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10080"
@@ -137,6 +147,7 @@ var subjects = [
   {
     "sub": "DEL",
     "name": "Digital Electronics Lab",
+    "image": "https://i.ytimg.com/vi/DBcWpr2HaRY/maxresdefault.jpg",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=471",
       "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10205"
@@ -145,6 +156,8 @@ var subjects = [
   {
     "sub": "HUT",
     "name": "Professional Ethics",
+    "image":
+        "https://www.tutorialspoint.com/professional_ethics/images/profession_ethics.jpg",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=449",
       "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10042"
@@ -153,6 +166,8 @@ var subjects = [
   {
     "sub": "HNRS",
     "name": "Honours - Machine Learning",
+    "image":
+        "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F966248982%2F960x0.jpg%3Ffit%3Dscale",
     "links": {
       "Home": "http://moodle.mec.ac.in/my/",
       "Attendance": "http://moodle.mec.ac.in/my/"
@@ -161,6 +176,8 @@ var subjects = [
   {
     "sub": "MNR",
     "name": "Minor",
+    "image":
+        "https://prod-discovery.edx-cdn.org/media/course/image/c3130811-75f9-4a4c-8779-3b9993a34e05-6959adf216a8.small.jpg",
     "links": {
       "Home": "http://moodle.mec.ac.in/my/",
       "Attendance": "http://moodle.mec.ac.in/my/"
