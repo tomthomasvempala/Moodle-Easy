@@ -9,7 +9,7 @@ class MyHome extends StatefulWidget {
 }
 
 class _MyHomeState extends State<MyHome> {
-  var selected = "OS";
+  var selected = "AFM";
   @override
   Widget build(BuildContext context) {
     Size pageSize = MediaQuery.of(context).size;
@@ -89,20 +89,26 @@ var subjects = [
   {
     "sub": "AFM",
     "name": "Mentoring",
-    "links": {"Home": "google.com", "Attendance": "gmail.com"},
+    "links": {
+      "Home": "http://moodle.mec.ac.in/course/view.php?id=414",
+      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=9902"
+    },
   },
   {
     "sub": "DBMS",
     "name": "Database Management System",
     "links": {
-      "Home": "google.com",
-      "Attendance": "gmail.com",
+      "Home": "http://moodle.mec.ac.in/course/view.php?id=407",
+      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10120",
     },
   },
   {
     "sub": "OS",
     "name": "Operating System",
-    "links": {"Home": "google.com", "Attendance": "gmail.com"}
+    "links": {
+      "Home": "http://moodle.mec.ac.in/course/view.php?id=433",
+      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10137"
+    }
   },
   {
     "sub": "COA",
@@ -115,31 +121,49 @@ var subjects = [
   {
     "sub": "GT",
     "name": "Graph Theory",
-    "links": {"Home": "google.com", "Attendance": "gmail.com"}
+    "links": {
+      "Home": "http://moodle.mec.ac.in/course/view.php?id=410",
+      "Attendance": "http://moodle.mec.ac.in/course/view.php?id=410"
+    }
   },
   {
     "sub": "OSL",
     "name": "OS Lab",
-    "links": {"Home": "google.com", "Attendance": "gmail.com"}
+    "links": {
+      "Home": "http://moodle.mec.ac.in/course/view.php?id=459",
+      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10080"
+    }
   },
   {
     "sub": "DEL",
     "name": "Digital Electronics Lab",
-    "links": {"Home": "google.com", "Attendance": "gmail.com"}
+    "links": {
+      "Home": "http://moodle.mec.ac.in/course/view.php?id=471",
+      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10205"
+    }
   },
   {
     "sub": "HUT",
     "name": "Professional Ethics",
-    "links": {"Home": "google.com", "Attendance": "gmail.com"}
+    "links": {
+      "Home": "http://moodle.mec.ac.in/course/view.php?id=449",
+      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10042"
+    }
   },
   {
     "sub": "HNRS",
     "name": "Honours - Machine Learning",
-    "links": {"Home": "google.com", "Attendance": "gmail.com"}
+    "links": {
+      "Home": "http://moodle.mec.ac.in/my/",
+      "Attendance": "http://moodle.mec.ac.in/my/"
+    }
   },
   {
     "sub": "MNR",
     "name": "Minor",
-    "links": {"Home": "google.com", "Attendance": "gmail.com"}
+    "links": {
+      "Home": "http://moodle.mec.ac.in/my/",
+      "Attendance": "http://moodle.mec.ac.in/my/"
+    }
   }
 ];
