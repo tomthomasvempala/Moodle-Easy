@@ -76,4 +76,6 @@ class TheGrid extends StatelessWidget {
 var myIcons = {
   "Home": Icons.home,
   "Attendance": Icons.class_,
+  "Big Blue Button": Icons.video_call_rounded,
+  "Google Meet": Icons.video_call_rounded,
 };

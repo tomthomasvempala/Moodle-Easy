@@ -42,7 +42,16 @@ class TimeTableDrawer extends StatelessWidget {
                       "http://moodle.mec.ac.in/pluginfile.php/32870/mod_resource/content/1/CS4%20TT-2021%20EVEN%20-w.e.f-26-04-2021.pdf"
                     ]);
                   },
-                  child: Text("See Full Time Table"))
+                  child: Text("See Full Time Table")),
+              SizedBox(
+                height: 20,
+              ),
+              TextButton(
+                  onPressed: () {
+                    js.context
+                        .callMethod('open', ["http://moodle.mec.ac.in/my/"]);
+                  },
+                  child: Text("Go to Dashboard"))
             ],
       ),
     );

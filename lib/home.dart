@@ -90,20 +90,23 @@ var subjects = [
     "sub": "AFM",
     "name": "Mentoring",
     "image":
-        "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1063184564%2F960x0.jpg%3Ffit%3Dscale",
+        "https://cdn.saleminteractivemedia.com/245/content/212250/3-ballot-1000x500.jpg",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=414",
-      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=9902"
+      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=9902",
+      "Big Blue Button":
+          "http://moodle.mec.ac.in/mod/bigbluebuttonbn/view.php?id=9901"
     },
   },
   {
     "sub": "DBMS",
     "name": "Database Management System",
     "image":
-        "https://www.pngkit.com/png/detail/231-2316751_database-database-icon-png.png",
+        "https://cdn.lynda.com/course/604214/604214-637491156658449354-16x9.jpg",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=407",
       "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10120",
+      "Google Meet": "https://meet.google.com/uax-rfxc-jnr"
     },
   },
   {
@@ -112,17 +115,17 @@ var subjects = [
     "image": "https://miro.medium.com/max/360/1*rk1o0WQWtR1tEGcsEMIpEQ.png",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=433",
-      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10137"
+      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10137",
     }
   },
   {
     "sub": "COA",
     "name": "Computer Organisation and Architecture",
-    "image":
-        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/44/d218105d0111e8ad4d85f20ecaf1cc/comparch-logo.png?auto=format%2Ccompress&dpr=1",
+    "image": "https://miro.medium.com/max/700/0*pPgqu6f2zz76HrQE.jpg",
     "links": {
       "Home": "http://moodle.mec.ac.in/course/view.php?id=409",
-      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10118"
+      "Attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10118",
+      "Google Meet": "http://meet.google.com/nwb-jbfa-dyo"
     }
   },
   {
