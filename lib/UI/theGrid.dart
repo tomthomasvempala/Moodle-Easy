@@ -51,8 +51,10 @@ class TheGrid extends StatelessWidget {
                   width: 30,
                 ),
                 Text(subjectData["name"],
-                    style:
-                        TextStyle(fontSize: 50, fontWeight: FontWeight.bold)),
+                    style: TextStyle(
+                        fontSize: 50,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white)),
               ],
             ),
             SizedBox(

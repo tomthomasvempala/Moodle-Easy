@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moodle/home.dart';
+import 'package:moodle/UI/home.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Moodle EZ',
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primarySwatch: Colors.grey,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         home: MyHome());

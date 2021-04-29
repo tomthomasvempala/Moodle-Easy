@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moodle/timetable.dart';
+import 'package:moodle/Data/timetable.dart';
 import 'dart:js' as js;
 
 class TimeTableDrawer extends StatelessWidget {
@@ -21,15 +21,17 @@ class TimeTableDrawer extends StatelessWidget {
                 .map<Widget>((e) => Container(
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
-                        color:
-                            getPeriod() == e ? Colors.blue : Colors.transparent,
-                        border: Border.all(color: Colors.blue)),
+                        color: getPeriod() == e
+                            ? Colors.orange
+                            : Colors.transparent,
+                        border: Border.all(color: Colors.orange)),
                     height: 60,
                     width: 200,
                     child: Text(
                       e,
                       style: TextStyle(
-                          color: getPeriod() != e ? Colors.blue : Colors.white),
+                          color:
+                              getPeriod() != e ? Colors.orange : Colors.white),
                     )))
                 .toList() +
             [
@@ -42,7 +44,8 @@ class TimeTableDrawer extends StatelessWidget {
                       "http://moodle.mec.ac.in/pluginfile.php/32870/mod_resource/content/1/CS4%20TT-2021%20EVEN%20-w.e.f-26-04-2021.pdf"
                     ]);
                   },
-                  child: Text("See Full Time Table")),
+                  child: Text("See Full Time Table",
+                      style: TextStyle(color: Colors.black))),
               SizedBox(
                 height: 20,
               ),
@@ -51,7 +54,8 @@ class TimeTableDrawer extends StatelessWidget {
                     js.context
                         .callMethod('open', ["http://moodle.mec.ac.in/my/"]);
                   },
-                  child: Text("Go to Dashboard"))
+                  child: Text("Go to Dashboard",
+                      style: TextStyle(color: Colors.black)))
             ],
       ),
     );
