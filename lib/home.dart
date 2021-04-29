@@ -15,10 +15,19 @@ class _MyHomeState extends State<MyHome> {
     Size pageSize = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Colors.blueGrey,
-        title: Text("Home"),
-      ),
+          elevation: 0,
+          backgroundColor: Colors.blueGrey,
+          title: Text("Home"),
+          leading: Builder(
+            builder: (context) {
+              return IconButton(
+                icon: Icon(Icons.calendar_today),
+                onPressed: () {
+                  Scaffold.of(context).openDrawer();
+                },
+              );
+            },
+          )),
       drawer: TimeTableDrawer(),
       body: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
